@@ -37,7 +37,7 @@
            sync-j="4" />
 
   <project path="manifest" name="platform_manifest" remote="ak" revision="jb42" />
-  <project path="build" name="platform_build" remote="vanir" revision="jb42">
+  <project path="build" name="build" remote="ak" revision="jb42">
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="tools/BUILD_COMMAND_README" dest="BUILD_COMMAND_README" />
   </project>
@@ -75,7 +75,7 @@
   <project path="device/samsung/t0lte" name="DAGr8/android_device_samsung_t0lte" remote="pub" revision="PUB" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/tuna" name="UnicornButter/device_samsung_tuna" remote="pub" revision="jb-mr1" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="ak" revision="jb-mr1" />
   <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" revision="refs/tags/android-4.2.1_r1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -249,7 +249,7 @@
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="android_frameworks_av" remote="vanir" revision="jb42" />
-  <project path="frameworks/base" name="frameworks_base" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/base" name="frameworks_base" remote="ak" revision="jb-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" revision="linaro_android_4.2.2" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
