@@ -26,14 +26,10 @@
           review="review.cyanogenmod.com" />
 
   <remote name="ak"
-          fetch="git://github.com/akellar" />
+          fetch="https://github.com/akellar" />
 
   <remote  name="pub"
            fetch="https://github.com/" />
-
-  <remote  name="omapzoom"
-           fetch="git://git.omapzoom.org/"
-           review="http://review.omapzoom.org/" />
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
