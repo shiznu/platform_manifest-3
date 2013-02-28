@@ -260,7 +260,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" remote="linaro" revision="linaro_android_4.2.2" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung/origen/gralloc_ump" name="platform/hardware/samsung/origen/gralloc_ump" remote="linaro" revision="linaro_android_jb" />
-  <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump"  remote="linaro" remote="linaro" revision="linaro_android_jb" />
+  <project path="hardware/samsung/origen/ump" name="platform/hardware/samsung/origen/ump"  remote="linaro" revision="linaro_android_jb" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" remote="vanir" revision="jb42" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
