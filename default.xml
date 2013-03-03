@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="vanir"
-          fetch="http://vaniraosp.goo.im/"
+          fetch="https://github.com/VanirAOSP/"
           review="vaniraosp.goo.im" />
 
   <remote name="linaro" 
