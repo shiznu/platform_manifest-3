@@ -38,6 +38,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform_dalvik" remote="vanir" revision="jb42" />
   <project name="platform_development" path="development" remote="vanir" revision="linaro_android_4.2.2" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="aokp" revision="jb-mr1" />
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -366,6 +367,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/AK47" name="vendor_AK47" remote="ak" revision="jb-mr1" />
+  <project path="vendor/asus" name="vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="vendor_samsung" remote="aokp" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
